@@ -158,7 +158,7 @@ eventbrite: 37004352013        # optional: alphanumeric key for Eventbrite regis
         or
       {% else %}
         {% unless forloop.first %}
-        ,
+        
         {% endunless %}
       {% endif %}
       <a href='mailto:{{contact}}'>{{contact}}</a>
